@@ -1,6 +1,8 @@
 {
     "tool-version": "3.19.0-centos7", 
     "name": "FreeSurferPipelineBatch-CentOS7", 
+    "author": "Washington University", 
+    "descriptor-url": "https://github.com/big-data-lab-team/cbrain-plugins-hcp/blob/master/cbrain_task_descriptors/freesurfer-exec-centos7-freesurferbuild-centos4.json",
     "command-line": "freesurfer-command-line-script.sh [SUBJECT_FOLDER] [NAME] [LICENSE]", 
     "inputs": [
         {
@@ -47,5 +49,11 @@
     "suggested-resources": {
         "walltime-estimate": 25200
     }, 
-    "description": "FreeSurferPipelineBatch HCP pipeline"
+    "description": "FreeSurferPipelineBatch HCP pipeline",
+    "tags": {
+        "domain": [
+            "neuroinformatics", 
+            "mri"
+        ]
+    }
 }

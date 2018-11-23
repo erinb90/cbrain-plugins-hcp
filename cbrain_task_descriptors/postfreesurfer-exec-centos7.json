@@ -1,6 +1,8 @@
 {
     "tool-version": "3.19.0-centos7", 
-    "name": "PostFreeSurferPipelineBatch-CentOS7", 
+    "name": "PostFreeSurferPipelineBatch-CentOS7",
+    "author": "Washington University",
+    "descriptor-url": "https://github.com/big-data-lab-team/cbrain-plugins-hcp/blob/master/cbrain_task_descriptors/postfreesurfer-exec-centos7.json", 
     "command-line": "postfreesurfer-command-line-script.sh [SUBJECT_FOLDER] [NAME] [LICENSE]", 
     "inputs": [
         {
@@ -47,5 +49,11 @@
     "suggested-resources": {
         "walltime-estimate": 25200
     }, 
-    "description": "PostFreeSurferPipelineBatch HCP pipeline"
+    "description": "PostFreeSurferPipelineBatch HCP pipeline",
+    "tags": {
+        "domain": [
+            "neuroinformatics", 
+            "mri"
+        ]
+    }
 }

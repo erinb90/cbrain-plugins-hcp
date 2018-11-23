@@ -1,6 +1,8 @@
 {
     "tool-version": "3.19.0-centos7", 
     "name": "PreFreeSurferPipelineBatch", 
+    "author": "Washington University", 
+    "descriptor-url": "https://github.com/big-data-lab-team/cbrain-plugins-hcp/blob/master/cbrain_task_descriptors/prefreesurfer-exec-centos7-fslbuild-centos5.json",
     "command-line": "command-line-script.sh [SUBJECT_FOLDER] [NAME]", 
     "inputs": [
         {
@@ -38,5 +40,11 @@
     "suggested-resources": {
         "walltime-estimate": 25200
     }, 
-    "description": "PreFreeSurferPipelineBatch HCP pipeline"
+    "description": "PreFreeSurferPipelineBatch HCP pipeline",
+    "tags": {
+        "domain": [
+            "neuroinformatics", 
+            "mri"
+        ]
+    }
 }
